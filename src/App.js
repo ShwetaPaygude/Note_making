@@ -1,13 +1,11 @@
-
-import './App.css';
-
+import React from 'react'
+import Startnote from './component/Startnote/Startnote'
 function App() {
   return (
-    <div className="App">
-      Hello
-      new changes available
+    <div>
+      <Startnote/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
